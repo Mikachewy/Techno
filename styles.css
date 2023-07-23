@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #2D3D4C;
+    height: 100vh;
+}
+#header{
+    background:rgba(0,0,0,0);
+    padding: 20px 0;
+    width:100% ;
+    position: fixed;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 10px;
+}
+
+.logo{
+    color: #f7f4f4;
+    font-size: 35px;
+    font-family: Arial;
+    float: right;
+    padding-top: 10px;
+}
+.main.nav{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #788cce;
+}
+.home-section{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.home-section .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    
+}
+
+.home-section h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.home-section .cn{
+    width: 160px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.home-section .cn a{
+    text-decoration: none;
+    color:#2D3D4C;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+.banner img{
+    max-width: 100%;
+    height: 10vh;
+}
+.getting-section,
+.profile-section,
+.services-section,
+.partners-section,
+.blogs-section, 
+.promos-section,
+.help-section,
+.register-section 
+{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    background: #2D3D4C;
+}
+
+.content2{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ff7200;
+    position: relative;
+}
+
+.content2 .par2{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content2 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content2 .cn2{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content2 .cn2 a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn2:hover{
+    background-color: #fff;
+}
+
+.content2 span{
+    color: #ff7200;
+    font-size: 65px
+}
+.getting-section {
+    background-image: url('home\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.profile-section {
+    background-image: url('sim\ card.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.services-section {
+    background-image: url('servicesbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.content3{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content3 h1{
+    font-family: 'Monospace';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content3 h2{
+    font-family: 'Verdana';
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+.content3 .cn3{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content3 .cn3 a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s ease;
+}
+
+.cn3:hover{
+    background-color: #fff;
+}
+
+.content3 span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+.content4{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+
+.content4 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content4 .cn4{
+    width: 160px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content4 .cn4 a{
+    text-decoration: none;
+    color: #f59343;
+    transition: .3s ease;
+}
+
+.cn3:hover{
+    background-color: #fff;
+}
+
+.content4 span{
+    color: #fcf7f3;
+    font-size: 65px
+}
+
+
+.content5{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+
+.content5 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content5 h4{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+
+.blogs-section {
+    background-image: url('tree.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.content6{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    position: relative;
+}
+
+
+.content6 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content5 h4{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.content7{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+
+.content7 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content7 h4{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    outline: invert;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content7 .cn7{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    outline: rgb(167, 155, 155);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content7 .cn7 a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s ease;
+}
+
+.cn7:hover{
+    background-color: #fff;
+}
+
+.content7 span{
+    color: #ff7200;
+    font-size: 65px
+}
+.help-section {
+    background-image: url('blue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.content8{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content8 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+.register-section {
+    background-image: url('finalbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.content9{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    position: relative;
+}
+
+.content9 h2{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content9 h4{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content9 h5{
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
